@@ -1,6 +1,8 @@
 // Funzione per generare un numero casuale da 1 a 6
 function lanciaDado() {
 
+    // Math.random restituisce un numero pseudocasuale di tipo double
+    // Math.floor è un metodo in Java che restituisce il più grande intero (double in questo caso)
     return Math.floor(Math.random() * 6) + 1;
 
 }
@@ -25,5 +27,5 @@ if (dadoGiocatore > dadoComputer) {
 } else {
 
     console.log("È un pareggio!");
-    
+
 }
