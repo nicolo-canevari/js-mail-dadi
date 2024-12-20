@@ -22,6 +22,7 @@ function controllaAccesso() {
     for (let i = 0; i < listaInvitati.length; i++) {
 
         if (emailUtente === listaInvitati[i]) {
+            
             // assegno un valore true alla variabile emailTrovata
             emailTrovata = true;
 
@@ -32,7 +33,7 @@ function controllaAccesso() {
 
     }
 
-    // Mostra un messaggio a seconda del risultato utilizzando alert con disclaimer
+    // Mostra un messaggio a seconda del risultato utilizzando alert come disclaimer
     if (emailTrovata) {
 
         alert("Benvenuto alla festa!");

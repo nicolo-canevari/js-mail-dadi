@@ -15,4 +15,4 @@ LOGICA:
     Se il punteggio del computer è maggiore, vince il computer.
     Se i punteggi sono uguali, è un pareggio.
 
--Stampa del risultato: Alla fine, mostriamo il risultato del confronto   (chi ha vinto o se c'è un pareggio).
+-Stampa del risultato: Alla fine, mostriamo il risultato del confronto (chi ha vinto o se c'è un pareggio).
