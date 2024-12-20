@@ -32,7 +32,7 @@ function controllaAccesso() {
 
     }
 
-    // Mostra un messaggio a seconda del risultato utilizzando alert con disclaimer
+    // Mostra un messaggio a seconda del risultato utilizzando alert come disclaimer
     if (emailTrovata) {
 
         alert("Benvenuto alla festa!");
